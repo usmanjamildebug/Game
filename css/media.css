@@ -1,0 +1,35 @@
+@media (max-width:600px) {
+    h1 {
+        width: 130%;
+        background-color: #081b31;
+        color: white;
+        height: 6rem;
+        line-height: 6rem;
+        overflow-x: hidden;
+    }
+
+    .choices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 5rem;
+        margin-left: 5rem;
+    }
+
+    .score-board {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-top: 3rem;
+        gap: 5rem;
+        margin-left: 5rem;
+    }
+
+    .msg-container {
+        margin-top: 5rem;
+        margin-left: 5rem;
+        display: inline-flex;
+    }
+}
